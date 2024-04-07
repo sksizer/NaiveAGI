@@ -1,0 +1,7 @@
+python:
+  ignore_paths:
+    - .venv
+  pylint:
+    entrance:
+      - naive_agi/
+      - service.py
